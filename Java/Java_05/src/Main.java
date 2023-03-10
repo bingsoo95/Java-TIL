@@ -6,17 +6,90 @@ public class Main {
 //      1. 반복문 - for
         System.out.println("== for ==");
 //      1-1. 기본 사용 방법
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        for (int i = 0; i < 5; i++) {
+            if (i==2) {
+                continue;
+            }
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        for (int i = 0; i < 5; i++) {
+            if (i==2) {
+                break;
+            }
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
 
 
 //      1-2. for each
+        System.out.println("== for each ==");
+        int[] nums = {1, 2, 3, 4, 5};
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        } // i++(증감문)에 변형이 있을시 사용하면 편리
+
+        for (int num : nums) {
+            System.out.println(num);
+        } // 모든 원소를 순회할 시 사용하면 편리
 
 
 //      2. 반복문 - while
-        System.out.println("== while ==");
+        System.out.println("== while  ==");
 //      2-1. while
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i++);
+        }
+
+        System.out.println();
+        i = 0;
+        while (i < 5) {
+            if (i == 2) {
+                i++;
+                continue;
+            }
+
+            System.out.println(i++);
+        }
+
+        System.out.println();
+        i = 0;
+        while (i < 5) {
+            if (i == 2) {
+                i++;
+                break;
+            }
+
+            System.out.println(i++);
+        }
 
 
 //      2-2. do-while
+        System.out.println("== do-while ==");
+        boolean knock = false;
+        do {
+            System.out.println("knock");
+        } while (knock);
 
 
 
@@ -25,6 +98,16 @@ public class Main {
 //      ***
 //      *****
 //      *******
+        for (int j = 0; j < 8; j++) {
+            if (j % 2 == 0) {
+                continue;
+            }
+
+            for (int k = 0; k < j; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
 
@@ -32,6 +115,13 @@ public class Main {
 //          추가로, 10도, 20도, ... 10도 간격으로 물 온도를 출력하시오.
         int waterTemperature = 0;
 
+        while (waterTemperature < 100) {
+            waterTemperature++;
+
+            if (waterTemperature % 10 == 0) {
+                System.out.println(waterTemperature + "도 입니다.");
+            }
+        }
 
     }
 }
