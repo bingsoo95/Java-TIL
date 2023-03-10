@@ -72,7 +72,7 @@ public class Main {
         result = numA >> 1;
         System.out.printf("%s\n", Integer.toBinaryString(numA));
         System.out.printf("%s\n", Integer.toBinaryString(result));
-        
+
         result = numA >>> 1;
         System.out.printf("%s\n", Integer.toBinaryString(numA));
         System.out.printf("%s\n", Integer.toBinaryString(result));
