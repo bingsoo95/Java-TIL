@@ -32,6 +32,18 @@ public class Main {
         Person p1 = new Person();
         Student s1 = new Student();
 
+        Person p2 = new Student();
+//        Student s2 = new Person();
+
+        p1.print();
+        s1.print();
+        s1.print2();
+        p2.print();
+//        p2.print2();
+
+        Person p3 = new CollegeStudent();
+//        CollegeStudent c1 = new Student(); // 자식 클래스끼리 같은 부모클래스(person)을 상속했다고 하더라도 다형성은 성립하지 않음
+        p3.print();
 
 
 //      2. 타입 변환
@@ -39,6 +51,21 @@ public class Main {
         Person pp1 = null;
         Student ss1 = null;
 
+        Person pp2 = new Person();
+        Student ss2 = new Student();
+        Person pp3 = new Student(); // *업캐스팅 -> 자식클래스의 객체가 부모클래스의 타입으로 형변환되는 것
+
+        pp1 = pp2;
+        pp1 = ss2;
+
+        ss1 = ss2;
+//        ss1 = pp2; // 자식클래스에서 부모클래스의 객체를 가리킬수는 없음
+        ss1 = (Student)pp3; // 업캐스팅된 것을 자신의 클래스쪽으로 타입 변환을 해주는 것 -> *다운캐스팅
+
+//        CollegeStudent cc1;
+//        CollegeStudent cc2 = new CollegeStudent();
+//        ss1 = (Student) cc2; // 자식클래스끼리의 형변환은 이루어지지 않음
+//        cc1 = (CollegeStudent) ss2;
 
 
 //      3. instanceof
@@ -48,7 +75,25 @@ public class Main {
         Person pe2 = new Student();
         Person pe3 = new CollegeStudent();
 
+        System.out.println(pe1 instanceof Person);
+        System.out.println(pe1 instanceof Student);
 
+        System.out.println(st1 instanceof Student);
+        System.out.println(st1 instanceof Person);
+
+        System.out.println(pe2 instanceof Person);
+        System.out.println(pe2 instanceof Student);
+
+        System.out.println(pe3 instanceof Person);
+        System.out.println(pe3 instanceof CollegeStudent);
+
+        if (pe1 instanceof  Student) {
+            Student stu1 = (Student) pe1;
+        }
+
+        if (st1 instanceof Person) {
+            Person per1 = (Person)st1;
+        }
 
     }
 }
