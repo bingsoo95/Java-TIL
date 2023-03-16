@@ -1,5 +1,18 @@
 // Java 프로그래밍 - 내부 클래스
 
+//내부 클래스 구조
+class  Outer {
+    public void print() {
+        System.out.println("Outer.print");
+    }
+
+    class Inner {
+        public void innerPrint() {
+            Outer.this.print();
+        }
+    }
+}
+
 public class Main {
 
     public static void main(String[] args) {
