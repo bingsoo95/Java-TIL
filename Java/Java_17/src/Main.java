@@ -117,8 +117,6 @@ public class Main {
 //      3-4. forEach
         System.out.println("== forEach == ");
         IntStream.range(1, 10).filter(n -> n == 5).forEach(System.out::println);
-        System.out.println("== forEach == ");
-        System.out.println("== forEach == ");
     }
 }
 
