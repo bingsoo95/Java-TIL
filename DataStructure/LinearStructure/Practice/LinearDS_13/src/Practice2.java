@@ -15,9 +15,23 @@
 
 
 import java.util.Arrays;
+import java.util.Hashtable;
 
 public class Practice2 {
     public static int[] solution(int[] numbers, int target) {
+        int[] result = new int[2];
+        Hashtable<Integer, Integer> ht = new Hashtable<>();
+
+        for (int i = 0; i < numbers.length; i++) {
+            if(ht.containsKey(numbers[i])) {
+            result[0] = ht.get(numbers[i]);
+            result[1] = i;
+            return result;
+        }
+
+            ht.put(target - numbers[i], i);
+        }
+
 
         return null;
     }
