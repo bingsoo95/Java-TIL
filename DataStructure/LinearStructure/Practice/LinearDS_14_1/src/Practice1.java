@@ -5,6 +5,17 @@ public class Practice1 {
     public static int[] solution(int[] arr){
         int[] arrNew = new int[arr.length];
 
+        int index = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arrNew[index] == 0) {
+                    break;
+                }
+                index = (index + 1) % arr.length;
+            }
+            arrNew[index] = arr[i];
+            index = (index + arr[i]) % arr.length;
+        }
 
         return arrNew;
     }
