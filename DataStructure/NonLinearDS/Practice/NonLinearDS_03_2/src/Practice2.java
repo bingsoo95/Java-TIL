@@ -3,10 +3,62 @@
 class AVLTree2 extends AVLTree{
 
     public void delete(int key) {
+        this.head = delete(this.head, key);
     }
 
     public Node delete(Node node, int key) {
-        return null;
+        if (node == null) {
+            return null;
+        }
+
+        if (key < node.key) {
+            node.left = delete(node.left, key);
+        } else if (key > node.key) {
+            node.right = delete(node.right, key);
+        } else {
+            if (node.left == null) {
+                return node.right;
+            } else if (node.right == null) {
+                return node.left;
+            } else {
+                Node predecessor = node;
+                Node sucessor = node.left;
+
+                while (sucessor.right != null) {
+                    predecessor = sucessor;
+                    sucessor = sucessor.right;
+                }
+
+                predecessor.right = sucessor.left;
+                node.key = sucessor.key;
+            }
+        }
+
+        node.height = Math.max(height(node.left), height(node.right)) + 1;
+
+        int balance = getBalance(node);
+
+        // LL
+        if (balance > 1 && getBalance(node.left) > 0) {
+            return rightRotate(node);
+        }
+
+        // RR
+        if (balance < -1 && getBalance(node.right) < 0) {
+            return leftRotate(node);
+        }
+
+        // LR
+        if (balance > 1 && getBalance(node.left) < 0) {
+            return lrRotate(node);
+        }
+
+        // RL
+        if (balance < -1 && getBalance(node.right) > 0) {
+            return rlRotate(node);
+        }
+
+        return node;
     }
 }
 

@@ -22,34 +22,94 @@ class AVLTree {
     Node head;
 
     public int height(Node node) {
-        return 0;
+        if (node == null) {
+            return -1;
+        }
+        return node.height;
     }
 
     public Node rightRotate(Node node) {
-        return null;
+        Node lNode = node.left;
+
+        node.left = lNode.right;
+        lNode.right = node;
+
+        node.height = Math.max(height(node.left), height(node.right) + 1);
+        lNode.height = Math.max(height(lNode.left), height(lNode.right) + 1);
+
+        return lNode;
     }
 
     public Node leftRotate(Node node) {
-        return null;
+        Node rNode = node.right;
+
+        node.right = rNode.left;
+        rNode.left = node;
+
+        node.height = Math.max(height(node.left), height(node.right) + 1);
+        rNode.height = Math.max(height(rNode.left), height(rNode.right) + 1);
+
+        return rNode;
     }
 
     public Node lrRotate(Node node) {
-        return null;
+        node.left = leftRotate(node.left);
+        return rightRotate(node);
     }
 
     public Node rlRotate(Node node) {
-        return null;
+        node.right = rightRotate(node.right);
+        return leftRotate(node);
     }
 
     public int getBalance(Node node) {
-        return 0;
+        if (node == null) {
+            return 0;
+        }
+
+        return height(node.left) - height(node.right);
     }
 
     public void insert(int key) {
+        this.head = insert(this.head, key);
     }
 
     public Node insert(Node node, int key) {
-        return null;
+        if (node == null) {
+            return new Node(key, null, null);
+        }
+
+        if (key < node.key) {
+            node.left = insert(node.left, key);
+        } else {
+            node.right = insert(node.right, key);
+        }
+
+        node.height = Math.max(height(node.left), height(node.right)) + 1;
+
+        int balance = getBalance(node);
+
+        // LL
+        if (balance > 1 && key < node.left.key) {
+            return rightRotate(node);
+        }
+
+        // RR
+        if (balance < -1 && key > node.right.key) {
+            return leftRotate(node);
+        }
+
+        // LR
+        if (balance > 1 && key > node.left.key) {
+            return lrRotate(node);
+        }
+
+        // RL
+        if (balance < -1 && key < node.right.key) {
+            return rlRotate(node);
+        }
+
+        return node;
     }
 
     public void levelOrder(Node node) {
