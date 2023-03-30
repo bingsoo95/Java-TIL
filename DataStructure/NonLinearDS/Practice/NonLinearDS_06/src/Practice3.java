@@ -14,7 +14,27 @@
 
 public class Practice3 {
     public static void solution(int[][] graph) {
+        int[] flags = new int[graph.length];
 
+        if (checkSplit(graph, flags, 1, 0) == true) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+
+    public static boolean checkSplit(int[][] graph, int[] flags, int flag, int node) {
+        if (flags[node] != 0) {
+            return flags[node] == flag;
+        }
+
+        flags[node] = flag;
+        for (int adjacentNode: graph[node]) {
+            if (!checkSplit(graph, flags, -flag, adjacentNode)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
