@@ -15,7 +15,34 @@
 
 public class Practice2 {
     public static void solution(String[] dictionary, String sentence) {
+        Trie trie = new Trie();
+        for (String str: dictionary) {
+            trie.insert(str);
+        }
 
+        StringBuffer sbResult = new StringBuffer();
+        for (String word: sentence.split(" ")) {
+            Node cur = trie.root;
+            StringBuffer sbCur = new StringBuffer();
+
+            for (char c : word.toCharArray()) {
+                sbCur.append(c);
+                if (cur.child.get(c) != null) {
+                    if (cur.child.get(c).isTerminal) {
+                        break;
+                    }
+                    cur = cur.child.get(c);
+                } else {
+                    sbCur = new StringBuffer(word);
+                    break;
+                }
+            }
+
+            sbResult.append(sbCur);
+            sbResult.append(" ");
+        }
+
+        System.out.println(sbResult);
     }
 
 
