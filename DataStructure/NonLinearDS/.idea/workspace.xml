@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d8b7ee6-5902-466d-8048-6e4d5f812c54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_01/NonLinearDS_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_02/NonLinearDS_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_03_1/NonLinearDS_03_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_03_2/NonLinearDS_03_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_03_3/NonLinearDS_03_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_04/NonLinearDS_04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_05/NonLinearDS_05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_06/NonLinearDS_06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_07/NonLinearDS_07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_08/NonLinearDS_08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_09/NonLinearDS_09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_10/NonLinearDS_10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_11/NonLinearDS_11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_12/NonLinearDS_12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_13_1/NonLinearDS_13_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_13_2/NonLinearDS_13_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/NonLinearDS_13_3/NonLinearDS_13_3.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2NxpRTh0RZLXSGex0Ld7gwcNeRS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/kmjae/git/Java-TIL/DataStructure/NonLinear"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d8b7ee6-5902-466d-8048-6e4d5f812c54" name="Changes" comment="" />
+      <created>1680615578155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680615578155</updated>
+    </task>
+    <servers />
+  </component>
+</project>

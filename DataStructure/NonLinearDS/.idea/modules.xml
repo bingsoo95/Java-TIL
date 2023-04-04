@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NonLinearDS.iml" filepath="$PROJECT_DIR$/.idea/NonLinearDS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_01/NonLinearDS_01.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_01/NonLinearDS_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_01/NonLinearDS_011.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_01/NonLinearDS_011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_02/NonLinearDS_02.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_02/NonLinearDS_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_02/NonLinearDS_021.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_02/NonLinearDS_021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_03_1/NonLinearDS_03_1.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_03_1/NonLinearDS_03_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_03_1/NonLinearDS_03_11.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_03_1/NonLinearDS_03_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_03_2/NonLinearDS_03_2.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_03_2/NonLinearDS_03_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_03_2/NonLinearDS_03_21.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_03_2/NonLinearDS_03_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_03_3/NonLinearDS_03_3.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_03_3/NonLinearDS_03_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_03_3/NonLinearDS_03_31.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_03_3/NonLinearDS_03_31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_04/NonLinearDS_04.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_04/NonLinearDS_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_04/NonLinearDS_041.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_04/NonLinearDS_041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_05/NonLinearDS_05.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_05/NonLinearDS_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_05/NonLinearDS_051.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_05/NonLinearDS_051.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_06/NonLinearDS_06.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_06/NonLinearDS_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_06/NonLinearDS_061.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_06/NonLinearDS_061.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_07/NonLinearDS_07.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_07/NonLinearDS_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_07/NonLinearDS_071.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_07/NonLinearDS_071.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_08/NonLinearDS_08.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_08/NonLinearDS_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_08/NonLinearDS_081.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_08/NonLinearDS_081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_09/NonLinearDS_09.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_09/NonLinearDS_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_09/NonLinearDS_091.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_09/NonLinearDS_091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_10/NonLinearDS_10.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_10/NonLinearDS_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_10/NonLinearDS_101.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_10/NonLinearDS_101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_11/NonLinearDS_11.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_11/NonLinearDS_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_11/NonLinearDS_111.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_11/NonLinearDS_111.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_12/NonLinearDS_12.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_12/NonLinearDS_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_12/NonLinearDS_121.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_12/NonLinearDS_121.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_13_1/NonLinearDS_13_1.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_13_1/NonLinearDS_13_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_13_1/NonLinearDS_13_11.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_13_1/NonLinearDS_13_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_13_2/NonLinearDS_13_2.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_13_2/NonLinearDS_13_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_13_2/NonLinearDS_13_21.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_13_2/NonLinearDS_13_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/NonLinearDS_13_3/NonLinearDS_13_3.iml" filepath="$PROJECT_DIR$/Solution/NonLinearDS_13_3/NonLinearDS_13_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/NonLinearDS_13_3/NonLinearDS_13_31.iml" filepath="$PROJECT_DIR$/Practice/NonLinearDS_13_3/NonLinearDS_13_31.iml" />
+    </modules>
+  </component>
+</project>
