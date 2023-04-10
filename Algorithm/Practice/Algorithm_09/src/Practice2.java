@@ -13,7 +13,6 @@
 
 public class Practice2 {
     public static int solution(int[] prices) {
-
         return 0;
     }
 

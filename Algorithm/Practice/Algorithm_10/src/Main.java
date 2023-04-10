@@ -2,7 +2,16 @@ public class Main {
 
     public static int getMax(int[] arr, int left, int right) {
 
-        return 0;
+        int m = (left + right) / 2;
+        if (left == right) {
+            return arr[left];
+        }
+
+        left = getMax(arr, left, m);
+        right = getMax(arr, m + 1, right);
+
+
+        return (left > right) ? left : right;
     }
 
 
