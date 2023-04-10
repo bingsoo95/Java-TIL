@@ -11,9 +11,10 @@ public class Main2 {
         System.out.println(Arrays.binarySearch(arr, 10));
         System.out.println(Arrays.binarySearch(arr, 30));
 
-        System.out.println("== 데이터가 없는 경우 ==");
+        System.out.println("== 데이터가 없는 경우 =="); // 원래 있어야할 자리를 음수로 바꾸고 -1
         System.out.println(Arrays.binarySearch(arr, 3));
         System.out.println(Arrays.binarySearch(arr, 11));
         System.out.println(Arrays.binarySearch(arr, 35));
+
     }
 }
