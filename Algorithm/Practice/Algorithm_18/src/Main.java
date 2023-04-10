@@ -1,13 +1,46 @@
 // 알고리즘 - 최소 신장 트리
 // 크루스칼 알고리즘
 
+import java.util.Arrays;
+
 public class Main {
+
+    static int parents[];
 
     public static int kruskal(int[][] data, int v, int e) {
         int weightSum = 0;
 
+        Arrays.sort(data, (x, y) -> x[2] - y[2]); // 오름차순
+
+        parents = new int[v + 1];
+        for (int i = 1; i < v + 1; i++) {
+            parents[i] = i;
+        }
+
+        for (int i = 0; i < e; i++) {
+            if (find(data[i][0]) != find(data[i][1])) {
+                union(data[i][0], data[i][1]);
+                weightSum += data[i][2];
+            }
+        }
 
         return weightSum;
+    }
+
+    public static void union (int a, int b) {
+        int aP = find(a);
+        int bP = find(b);
+
+        if (aP != bP) {
+            parents[aP] = bP;
+        }
+    }
+
+    public static int find(int a) {
+        if (a == parents[a]) {
+            return a;
+        }
+        return parents[a] = find(parents[a]);
     }
 
     public static void main(String[] args) {
