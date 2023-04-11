@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Math.iml" filepath="$PROJECT_DIR$/.idea/Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_02/Math_02.iml" filepath="$PROJECT_DIR$/Practice/Math_02/Math_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_03/Math_03.iml" filepath="$PROJECT_DIR$/Practice/Math_03/Math_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_04/Math_04.iml" filepath="$PROJECT_DIR$/Practice/Math_04/Math_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_05/Math_05.iml" filepath="$PROJECT_DIR$/Practice/Math_05/Math_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_06/Math_06.iml" filepath="$PROJECT_DIR$/Practice/Math_06/Math_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_07/Math_07.iml" filepath="$PROJECT_DIR$/Practice/Math_07/Math_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_08/Math_08.iml" filepath="$PROJECT_DIR$/Practice/Math_08/Math_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_09_1/Math_09_1.iml" filepath="$PROJECT_DIR$/Practice/Math_09_1/Math_09_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Math_09_2/Math_09_2.iml" filepath="$PROJECT_DIR$/Practice/Math_09_2/Math_09_2.iml" />
+    </modules>
+  </component>
+</project>

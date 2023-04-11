@@ -27,13 +27,15 @@ public class Main {
         System.out.println("== 집합 연산 ==");
 
 //      2-1. 교집합
-
+        HashSet a = new HashSet(Arrays.asList(1, 2, 3, 4 , 5));
+        HashSet b = new HashSet(Arrays.asList(2, 4, 6, 8 , 10));
+        a.retainAll(b);
 
 //      2-2. 합집합
-
+        a.addAll(b);
 
 //      2-3. 차집합
-
+        a.removeAll(b);
 
     }
 
